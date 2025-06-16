@@ -49,25 +49,36 @@
     PI = 15;
     
 ### 2.4 Declara una variable sin asignarle valor. Muestra en consola qué contiene.
-    ![imagen](https://github.com/user-attachments/assets/fd11d936-92b8-4c68-b618-66e2e44fd684)
+![imagen](https://github.com/user-attachments/assets/fd11d936-92b8-4c68-b618-66e2e44fd684)
 
     
 ### 2.5 Crea una variable con valor null y otra con un valor booleano. Muestra ambos en consola.
-    ![imagen](https://github.com/user-attachments/assets/9f081330-5496-4db0-aaf0-04226caf65e6)
+![imagen](https://github.com/user-attachments/assets/9f081330-5496-4db0-aaf0-04226caf65e6)
 
     
 ## Parte 3: Entrada y Salida de Datos
 
 3.1 Usa prompt() para pedirle al usuario su edad y guárdala en una variable. Luego, muestra en consola un mensaje que diga "Tienes [edad] años".
 
+![imagen](https://github.com/user-attachments/assets/43de1383-f433-49c3-9034-b6ecaf8d9175) (no leí bien ._.)
+![imagen](https://github.com/user-attachments/assets/692000c4-6af8-4fab-b66e-dbb100c11f9e)
+
+
+
 3.2 Usa alert() para mostrar un mensaje de bienvenida.
+![imagen](https://github.com/user-attachments/assets/3826b903-d6f5-480d-866f-4ea570a601a0)
 
 3.3 Usa confirm() para preguntar al usuario si desea continuar. Muestra en consola el valor que devuelve esta función.
+![imagen](https://github.com/user-attachments/assets/5c61ba50-68a7-4c89-bd67-b9fb1e775642)
+
 Parte 4: Operadores
 
 4.1 Declara dos variables numéricas. Realiza y muestra los resultados de las siguientes operaciones: suma, resta, multiplicación, división y módulo.
+![imagen](https://github.com/user-attachments/assets/3a98c20c-57b5-4ba6-ae26-faaf9e3acf91)
+
 
 4.2 Declara dos variables con cadenas de texto y únelas en una nueva variable usando el operador de concatenación.
+![imagen](https://github.com/user-attachments/assets/fd1a6708-107d-44c6-90ae-a764053983f7)
 
 4.3 Evalúa y muestra en consola el resultado de las siguientes comparaciones:
 
