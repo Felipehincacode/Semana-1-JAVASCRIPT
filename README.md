@@ -28,29 +28,34 @@
 ## Parte 2: Variables y Tipos de Datos
 
 ### 2.1 Declara una variable nombre y asígnale tu nombre. Luego, muestra un saludo en la consola que diga "Hola, [nombre]".
-    ```
+    
     let nombre = "felipe";
     console.log(nombre)
-    ```  
+    
             
 ### 2.2 Crea tres variables: una con un número entero, otra con un número decimal y otra con una cadena de texto. Muestra cada una en la consola usando console.log().
         
-        ```
+       
         let nombre = "felipe";
         let edad = 25;
         let peso = 90.3;
         console.log(`Mi nombre es ${nombre} tengo ${edad} años y peso ${peso} kilos`); 
-        ```
+       
     
 ### 2.3 Declara una constante llamada PI con el valor 3.1416. Intenta cambiar su valor y observa qué sucede.
-    ```
+    
     const PI = 3.1416;
 
     PI = 15;
-    ```
+    
 ### 2.4 Declara una variable sin asignarle valor. Muestra en consola qué contiene.
+    ![imagen](https://github.com/user-attachments/assets/fd11d936-92b8-4c68-b618-66e2e44fd684)
+
     
 ### 2.5 Crea una variable con valor null y otra con un valor booleano. Muestra ambos en consola.
+    ![imagen](https://github.com/user-attachments/assets/9f081330-5496-4db0-aaf0-04226caf65e6)
+
+    
 ## Parte 3: Entrada y Salida de Datos
 
 3.1 Usa prompt() para pedirle al usuario su edad y guárdala en una variable. Luego, muestra en consola un mensaje que diga "Tienes [edad] años".
