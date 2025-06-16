@@ -1,4 +1,4 @@
-# Taller-Pr-ctico-Introducci-n-a-JavaScript
+# Taller-Práctico-Introducción-a-JavaScript
 
 
 ## Parte 1: Explorando JavaScript
@@ -21,4 +21,82 @@
 
 ### 1.3 ¿Qué significa que JavaScript sea un lenguaje "interpretado" y "basado en eventos"?
 
-  
+```  
+    Que sea interpretado implica que es un lenguaje que se va interpretando linea por linea, es decir de haber un error, el error surgiría en el momento que se use esa linea de código donde está el error
+    mientrastanto, un lenguaje compilado tiraría el error inmediatamente se trata de usar. el hecho de que sea interpretado lo hace más dinámico, y cuando son compilados, generalmente tienen mejor rendimiento.
+ ```  
+## Parte 2: Variables y Tipos de Datos
+
+### 2.1 Declara una variable nombre y asígnale tu nombre. Luego, muestra un saludo en la consola que diga "Hola, [nombre]".
+    ```
+    let nombre = "felipe";
+    console.log(nombre)
+    ```  
+            
+### 2.2 Crea tres variables: una con un número entero, otra con un número decimal y otra con una cadena de texto. Muestra cada una en la consola usando console.log().
+        
+        ```
+        let nombre = "felipe";
+        let edad = 25;
+        let peso = 90.3;
+        console.log(`Mi nombre es ${nombre} tengo ${edad} años y peso ${peso} kilos`); 
+        ```
+    
+### 2.3 Declara una constante llamada PI con el valor 3.1416. Intenta cambiar su valor y observa qué sucede.
+    ```
+    const PI = 3.1416;
+
+    PI = 15;
+    ```
+### 2.4 Declara una variable sin asignarle valor. Muestra en consola qué contiene.
+    
+### 2.5 Crea una variable con valor null y otra con un valor booleano. Muestra ambos en consola.
+## Parte 3: Entrada y Salida de Datos
+
+3.1 Usa prompt() para pedirle al usuario su edad y guárdala en una variable. Luego, muestra en consola un mensaje que diga "Tienes [edad] años".
+
+3.2 Usa alert() para mostrar un mensaje de bienvenida.
+
+3.3 Usa confirm() para preguntar al usuario si desea continuar. Muestra en consola el valor que devuelve esta función.
+Parte 4: Operadores
+
+4.1 Declara dos variables numéricas. Realiza y muestra los resultados de las siguientes operaciones: suma, resta, multiplicación, división y módulo.
+
+4.2 Declara dos variables con cadenas de texto y únelas en una nueva variable usando el operador de concatenación.
+
+4.3 Evalúa y muestra en consola el resultado de las siguientes comparaciones:
+
+    5 == "5"
+    5 === "5"
+    true && false
+    false || true
+    !true
+
+Parte 5: Condicionales
+
+5.1 Crea un programa que pida al usuario un número y muestre en consola si es mayor, menor o igual a 10.
+
+5.2 Crea un programa que solicite el nombre de un usuario y compare si se llama "Admin". Si es así, muestra un mensaje de bienvenida especial, de lo contrario, un mensaje genérico.
+
+5.3 Usa el operador ternario para mostrar si un número ingresado es par o impar.
+Parte 6: Consola del Navegador
+
+6.1 Muestra diferentes tipos de mensajes en la consola:
+
+    Un mensaje informativo (console.info)
+    Un mensaje de advertencia (console.warn)
+    Un mensaje de error (console.error)
+    Un grupo de mensajes (console.group y console.groupEnd)
+    El tiempo que tarda un bloque de código en ejecutarse (console.time y console.timeEnd)
+
+Parte 7: Comentarios
+
+7.1 Escribe un pequeño bloque de código donde utilices comentarios de una línea y de varias líneas para explicar lo que hace cada parte.
+Parte 8: Desafío Final
+
+8.1 Crea un archivo HTML y vincúlalo con un archivo .js externo. En ese archivo:
+
+    Declara tres variables: nombre, edad, y ciudad.
+    Pide al usuario su nombre, edad y ciudad mediante prompt().
+    Muestra esa información formateada en consola con una frase como:
+    "Hola [nombre], tienes [edad] años y vives en [ciudad]."
