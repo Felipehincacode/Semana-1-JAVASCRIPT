@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/8bd21de7-a413-47c4-a537-8e31548895c2)# Taller-Práctico-Introducción-a-JavaScript
+Taller-Práctico-Introducción-a-JavaScript
 
 
 ## Parte 1: Explorando JavaScript
@@ -49,10 +49,16 @@
     PI = 15;
     
 ### 2.4 Declara una variable sin asignarle valor. Muestra en consola qué contiene.
+
+
+
 ![imagen](https://github.com/user-attachments/assets/fd11d936-92b8-4c68-b618-66e2e44fd684)
 
     
 ### 2.5 Crea una variable con valor null y otra con un valor booleano. Muestra ambos en consola.
+
+
+
 ![imagen](https://github.com/user-attachments/assets/9f081330-5496-4db0-aaf0-04226caf65e6)
 
     
@@ -62,7 +68,13 @@
 
 ![imagen](https://github.com/user-attachments/assets/43de1383-f433-49c3-9034-b6ecaf8d9175) 
 
+
+
+
 (no leí bien ._.)
+
+
+
 
 ![imagen](https://github.com/user-attachments/assets/692000c4-6af8-4fab-b66e-dbb100c11f9e)
 
@@ -73,12 +85,15 @@
 
 ![imagen](https://github.com/user-attachments/assets/3826b903-d6f5-480d-866f-4ea570a601a0)
 
+
+
 3.3 Usa confirm() para preguntar al usuario si desea continuar. Muestra en consola el valor que devuelve esta función.
 
 
 ![imagen](https://github.com/user-attachments/assets/5c61ba50-68a7-4c89-bd67-b9fb1e775642)
 
 Parte 4: Operadores
+
 
 4.1 Declara dos variables numéricas. Realiza y muestra los resultados de las siguientes operaciones: suma, resta, multiplicación, división y módulo.
 
@@ -96,17 +111,17 @@ Parte 4: Operadores
 Parte 5: Condicionales
 
 // 5.1 Crea un programa que pida al usuario un número y muestre en consola si es mayor, menor o igual a 10.
-
-let num = prompt("por favor ingrese un número")
-
- if (num > 10) {
-    console.log("el número que ingresó es mayor a 0")} 
-else if (num < 10){
-    console.log("el número que ingresó es menor que 10")
-}
-    else {    
-        console.log("el número es igual a 10")
+    
+    let num = prompt("por favor ingrese un número")
+    
+     if (num > 10) {
+        console.log("el número que ingresó es mayor a 0")} 
+    else if (num < 10){
+        console.log("el número que ingresó es menor que 10")
     }
+        else {    
+            console.log("el número es igual a 10")
+        }
 
 
 
@@ -125,29 +140,92 @@ else if (num < 10){
 
 5.3 Usa el operador ternario para mostrar si un número ingresado es par o impar.
 
-    // 5.3 Usa el operador ternario para mostrar si un número ingresado es par o impar.
-let numo = prompt("ingrese un núḿero porfavor")
-
-numo % 2 == 0 ? console.log(`El número ${numo} es par`) : console.log(`El número ${numo} es impar`);
+// 5.3 Usa el operador ternario para mostrar si un número ingresado es par o impar.
+    
+    let numo = prompt("ingrese un núḿero porfavor")
+    
+    numo % 2 == 0 ? console.log(`El número ${numo} es par`) : console.log(`El número ${numo} es impar`);
 
 Parte 6: Consola del Navegador
 
 6.1 Muestra diferentes tipos de mensajes en la consola:
 
     Un mensaje informativo (console.info)
-    Un mensaje de advertencia (console.warn)
-    Un mensaje de error (console.error)
-    Un grupo de mensajes (console.group y console.groupEnd)
-    El tiempo que tarda un bloque de código en ejecutarse (console.time y console.timeEnd)
+        ```
+            let edad = prompt("Cual es tu edad?")
+    if (edad<18){
+        console.info(`el usuario tiene ${edad} años, algunas funciones deberían de estar restringidas`);
+    }
+    else {console.info(`el usurio tiene ${edad} tiene total acceso al contenido`)
+    }  
+        ```
+Un mensaje de advertencia (console.warn)
+        ![imagen](https://github.com/user-attachments/assets/16e24ba2-2c1a-4940-8325-84e5e2df6ed5)
+            
+            let acceso = prompt("Tiene permiso para accedera esta zona (y/n)").trim().toLowerCase();
+        if (acceso == "y"){
+            console.info("Bienvenido jefe");
+        }
+        else {
+            console.warn("por abstengase de ingresar")
+        }
+
+Un mensaje de error (console.error)
+![imagen](https://github.com/user-attachments/assets/52c483a4-d622-433f-a74d-97614abb7c63)
+
+    let asistencia = prompt("escriba la hora de entrada (sólo el número)");
+            if (asistencia <= 6){
+                console.log("llegó a tiempo")
+            }
+            else{ console.error("llegaste tarde")}
+
+   
+
+Un grupo de mensajes (console.group y console.groupEnd)
+![imagen](https://github.com/user-attachments/assets/d2eb2d75-c65d-4a54-ba18-ca302b2e2b37)
+
+        console.groupconsole.group("Trabajenguas en español");
+    console.info("Pablito clavó un clavito. ¿Qué clavito clavó Pablito?");
+    console.info("Tres tristes tigres tragaban trigo en un trigal.");
+    console.info("El cielo está enladrillado. ¿Quién lo desenladrillará? El que lo desenladrille, buen desenladrillador será?");
+    console.info("PPepe Pecas pica papas con un pico. ¿Con qué pico pica papas Pepe Pecas");
+    console.groupEnd();
+    
+El tiempo que tarda un bloque de código en ejecutarse (console.time y console.timeEnd)
+
+![imagen](https://github.com/user-attachments/assets/66a5892b-2f9d-4a99-8f89-7c7cf946c8df)
+
+        console.time("OperacionPesada"); 
+    
+    for (let i = 0; i < 1000000; i++) {
+      console.log(` el valor de i es ${i}`);
+    }
+    
+    
+    console.timeEnd("OperacionPesada");
+    
+    console.log("Simulación finalizada.");
 
 Parte 7: Comentarios
 
 7.1 Escribe un pequeño bloque de código donde utilices comentarios de una línea y de varias líneas para explicar lo que hace cada parte.
+
+        //     El tiempo que tarda un bloque de código en ejecutarse (console.time y console.timeEnd)
+    
+    console.time("OperacionPesada");  //ponemos el nombre a al cronometro
+    
+    for (let i = 0; i < 1000000; i++) {
+      console.log(` el valor de i es ${i}`); //una operación larga que demanda computo
+    }
+    
+    console.timeEnd("OperacionPesada"); //no muestra el valor del crónometro
+    
+    console.log("Simulación finalizada.");
+
 Parte 8: Desafío Final
 
 8.1 Crea un archivo HTML y vincúlalo con un archivo .js externo. En ese archivo:
+![imagen](https://github.com/user-attachments/assets/200aadbc-900d-4897-a0eb-43c4451b7186)
 
-    Declara tres variables: nombre, edad, y ciudad.
-    Pide al usuario su nombre, edad y ciudad mediante prompt().
-    Muestra esa información formateada en consola con una frase como:
-    "Hola [nombre], tienes [edad] años y vives en [ciudad]."
+![imagen](https://github.com/user-attachments/assets/d853764c-3774-46f6-9526-8684516d92a2)
+
