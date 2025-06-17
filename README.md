@@ -1,4 +1,4 @@
-# Taller-Práctico-Introducción-a-JavaScript
+![image](https://github.com/user-attachments/assets/8bd21de7-a413-47c4-a537-8e31548895c2)# Taller-Práctico-Introducción-a-JavaScript
 
 
 ## Parte 1: Explorando JavaScript
@@ -90,20 +90,46 @@ Parte 4: Operadores
 ![imagen](https://github.com/user-attachments/assets/fd1a6708-107d-44c6-90ae-a764053983f7)
 
 4.3 Evalúa y muestra en consola el resultado de las siguientes comparaciones:
+![image](https://github.com/user-attachments/assets/2671fa5c-3fa6-4bda-8804-97b1bbf3e456)
 
-    5 == "5"
-    5 === "5"
-    true && false
-    false || true
-    !true
 
 Parte 5: Condicionales
 
-5.1 Crea un programa que pida al usuario un número y muestre en consola si es mayor, menor o igual a 10.
+// 5.1 Crea un programa que pida al usuario un número y muestre en consola si es mayor, menor o igual a 10.
+
+let num = prompt("por favor ingrese un número")
+
+ if (num > 10) {
+    console.log("el número que ingresó es mayor a 0")} 
+else if (num < 10){
+    console.log("el número que ingresó es menor que 10")
+}
+    else {    
+        console.log("el número es igual a 10")
+    }
+
+
+
 
 5.2 Crea un programa que solicite el nombre de un usuario y compare si se llama "Admin". Si es así, muestra un mensaje de bienvenida especial, de lo contrario, un mensaje genérico.
 
+
+
+    let nombre = prompt("por favor identificaté").trim()
+    
+    if (nombre == "admin"){
+        console.log("Bienvenido señor admin <3")
+    }
+    else {
+        console.log(`lo siento ${nombre} no tengo idea de quien eres`);
+
 5.3 Usa el operador ternario para mostrar si un número ingresado es par o impar.
+
+    // 5.3 Usa el operador ternario para mostrar si un número ingresado es par o impar.
+let numo = prompt("ingrese un núḿero porfavor")
+
+numo % 2 == 0 ? console.log(`El número ${numo} es par`) : console.log(`El número ${numo} es impar`);
+
 Parte 6: Consola del Navegador
 
 6.1 Muestra diferentes tipos de mensajes en la consola:
